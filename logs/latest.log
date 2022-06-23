@@ -1,0 +1,183 @@
+[19:03:12] [main/ERROR]: No key layers in MapLike[{}]; No key structures in MapLike[{}]
+[19:03:12] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:03:12] [main/INFO]: Found new data pack file/bukkit, loading it automatically
+[19:03:13] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[19:03:13] [Worker-Main-14/INFO]: Loaded 7 recipes
+[19:03:15] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[19:03:15] [Server thread/INFO]: Loading properties
+[19:03:16] [Server thread/INFO]: This server is running CraftBukkit version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[19:03:16] [Server thread/WARN]: Unable to read file ops.json, backing it up to {0}.backup and creating new copy.
+java.lang.NullPointerException: null
+	at net.minecraft.server.v1_16_R3.JsonList.load(JsonList.java:166) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at net.minecraft.server.v1_16_R3.DedicatedPlayerList.z(SourceFile:103) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at net.minecraft.server.v1_16_R3.DedicatedPlayerList.<init>(SourceFile:26) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:186) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:928) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:273) ~[spigot-1.16.5.jar:3096a-Spigot-9fb885e-af1a232]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_321]
+[19:03:16] [Server thread/INFO]: Debug logging is disabled
+[19:03:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:03:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:03:16] [Server thread/INFO]: Default game type: CREATIVE
+[19:03:16] [Server thread/INFO]: Generating keypair
+[19:03:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:03:17] [Server thread/INFO]: Using default channel type
+[19:03:18] [Server thread/ERROR]: Ambiguous plugin name `SkQuery' for files `plugins\SkQuery.jar' and `plugins\SkQuery-4.1.6.jar' in `plugins'
+[19:03:19] [Server thread/INFO]: [ProMCCore] Loading 2 libraries... please wait
+[19:03:19] [Server thread/INFO]: [ProMCCore] Loaded library C:\Users\sdbb2\Desktop\1.16.5\libraries\mysql\mysql-connector-java\8.0.27\mysql-connector-java-8.0.27.jar
+[19:03:19] [Server thread/INFO]: [ProMCCore] Loaded library C:\Users\sdbb2\Desktop\1.16.5\libraries\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar
+[19:03:19] [Server thread/INFO]: [ProMCCore] Loaded library C:\Users\sdbb2\Desktop\1.16.5\libraries\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar
+[19:03:19] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[19:03:23] [Server thread/WARN]: Legacy plugin skUtilities v0.9.2 does not specify an api-version.
+[19:03:23] [Server thread/WARN]: Legacy plugin skRayFall v1.9.18 does not specify an api-version.
+[19:03:23] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.18
+[19:03:23] [Server thread/INFO]: [ProMCCore] Loading ProMCCore v1.0.3.8
+[19:03:23] [Server thread/INFO]: [ProSkillAPI] Loading ProSkillAPI v1.1.7.16
+[19:03:23] [Server thread/INFO]: [Skript] Loading Skript v2.5
+[19:03:23] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v4.0.3
+[19:03:23] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.9
+[19:03:23] [Server thread/INFO]: [LaggRemover] Loading LaggRemover v2.0.6
+[19:03:23] [Server thread/INFO]: [Skellett] Loading Skellett v1.9.8
+[19:03:23] [Server thread/INFO]: [skUtilities] Loading skUtilities v0.9.2
+[19:03:23] [Server thread/INFO]: [skRayFall] Loading skRayFall v1.9.18
+[19:03:23] [Server thread/INFO]: [SkQuery] Loading SkQuery v4.1.1
+[19:03:23] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.18
+[19:03:24] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[19:03:24] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.18[m
+[19:03:24] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[19:03:24] [Server thread/INFO]: [m
+[19:03:24] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[19:03:24] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[19:03:24] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[19:03:24] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[19:03:24] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1367ms)
+[19:03:24] [Server thread/INFO]: [ProMCCore] Enabling ProMCCore v1.0.3.8
+[19:03:24] [Server thread/INFO]: [ProMCCore] You are running MC version V1_16_R3
+[19:03:24] [Server thread/INFO]: [ProMCCore] Loaded NMS version: V1_16_R3
+[19:03:24] [Server thread/INFO]: [ProMCCore] Found 0 external module(s).
+[19:03:24] [Server thread/INFO]: Server version: 11605
+[19:03:24] [Server thread/INFO]: [ProMCCore] ProMCCore has been enabled!
+[19:03:24] [Server thread/INFO]: [ProMCCore] Plugin loaded in 135 ms!
+[19:03:24] [Server thread/INFO]: Preparing level "world"
+[19:03:24] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:03:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:03:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:03:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:03:24] [Server thread/INFO]: Max TNT Explosions: 100
+[19:03:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:03:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:03:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:03:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:03:24] [Server thread/INFO]: View Distance: 10
+[19:03:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:03:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:03:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:03:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:03:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:03:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:03:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:03:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:03:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:03:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:03:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:03:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:03:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:03:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:03:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:03:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:03:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:03:24] [Server thread/INFO]: Mob Spawn Range: 6
+[19:03:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:03:24] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[19:03:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:03:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[19:03:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:03:26] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[19:03:26] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[19:03:27] [Worker-Main-11/INFO]: Preparing spawn area: 3%
+[19:03:27] [Worker-Main-10/INFO]: Preparing spawn area: 15%
+[19:03:28] [Worker-Main-19/INFO]: Preparing spawn area: 23%
+[19:03:30] [Worker-Main-8/INFO]: Preparing spawn area: 27%
+[19:03:30] [Worker-Main-9/INFO]: Preparing spawn area: 27%
+[19:03:30] [Worker-Main-9/INFO]: Preparing spawn area: 27%
+[19:03:30] [Worker-Main-8/INFO]: Preparing spawn area: 27%
+[19:03:30] [Worker-Main-18/INFO]: Preparing spawn area: 85%
+[19:03:31] [Worker-Main-8/INFO]: Preparing spawn area: 98%
+[19:03:31] [Server thread/INFO]: Time elapsed: 5076 ms
+[19:03:31] [Server thread/INFO]: [ProSkillAPI] Enabling ProSkillAPI v1.1.7.16
+[19:03:31] [Server thread/INFO]: [ProSkillAPI] Registration complete
+[19:03:31] [Server thread/INFO]: [ProSkillAPI]  - 0 skills
+[19:03:31] [Server thread/INFO]: [ProSkillAPI]  - 0 classes
+[19:03:31] [Server thread/INFO]: [Skript] Enabling Skript v2.5
+[19:03:31] [Server thread/WARN]: [Skript] The following messages have not been translated to korean: heal reasons.eating, heal reasons.wither_spawn, entities.spellcaster.name, types.blockdata, spawn reasons.explosion, entities.spellcaster.pattern, types.cattype, spawn reasons.bed, spawn reasons.patrol, inventory types.smithing, heal reasons.ender_crystal, skript command.help.test, spawn reasons.raid, types.healreason, heal reasons.custom, biomes.swamp_hills, types.gamerule, heal reasons.satiated, click types.swap_offhand, heal reasons.wither, chat styles.obfuscated, visual effects.falling_dust.name, entities.illager.pattern, types.persistentdataholder, types.gamerulevalue, entities.piglin brute.name, types.enchantmentoffer, entities.illager.name, heal reasons.regen, spawn reasons.beehive, entities.piglin brute.pattern, types.attributetype, heal reasons.magic, visual effects.falling_dust.pattern, biomes.eroded_badlands, heal reasons.magic_regen
+[19:03:33] [ForkJoinPool.commonPool-worker-9/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m A new version of Skript is available: [0;33;22m2.6.2[m (you're currently running [0;33;22m2.5[m)[m
+[19:03:33] [ForkJoinPool.commonPool-worker-9/INFO]: [0;37;1mDownload it at: <aqua><u><link:https://github.com/SkriptLang/Skript/releases/download/2.6.2/Skript.jar>https://github.com/SkriptLang/Skript/releases/download/2.6.2/Skript.jar[m
+[19:03:36] [Server thread/INFO]: [Skript] Loaded 128188 aliases in 5048ms
+[19:03:36] [Server thread/INFO]: [Skript]  ~ created by & ? Peter G?ttinger aka Njol ~
+[19:03:36] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v4.0.3
+[19:03:36] [Server thread/WARN]: [ChestCommands] Couldn't find Vault and a compatible economy plugin! Money-related features will not work.
+[19:03:36] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.9
+[19:03:37] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
+[19:03:37] [Server thread/INFO]: 
+[19:03:37] [Server thread/INFO]:     __                      ____                                         _    _____
+[19:03:37] [Server thread/INFO]:    / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
+[19:03:37] [Server thread/INFO]:   / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
+[19:03:37] [Server thread/INFO]:  / /___/ /_/ / /_/ / /_/ / _, _/  __/ / / / / / /_/ / |/ /  __/ /       | |/ // __/
+[19:03:37] [Server thread/INFO]: /_____/\__,_/\__, /\__, /_/ |_|\___/_/ /_/ /_/\____/|___/\___/_/        |___//____/
+[19:03:37] [Server thread/INFO]:             /____//____/
+[19:03:37] [Server thread/INFO]: 
+[19:03:37] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
+[19:03:37] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
+[19:03:37] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
+[19:03:37] [Server thread/INFO]: [Skellett] Enabling Skellett v1.9.8
+[19:03:37] [Server thread/INFO]: [0;30;1m[[0;32;1mSkellett[0;30;1m] [0;33;1mRegistered [0;32;1m53 [0;33;1mEffects, [0;32;1m16[0;33;1m Conditions, [0;32;1m142[0;33;1m Expressions and [0;32;1m25[0;33;1m Events[m
+[19:03:37] [Server thread/INFO]: [0;30;1m[[0;32;1mSkellett[0;30;1m] [0;33;1m[0;32;1mHas been enabled![m
+[19:03:37] [Server thread/INFO]: [skUtilities] Enabling skUtilities v0.9.2
+[19:03:37] [Server thread/INFO]: [skUtilities] v0.9.2: loaded modules (Conversions, Files, Yaml, Urls, Utilities) in 42ms
+[19:03:37] [Server thread/INFO]: [skRayFall] Enabling skRayFall v1.9.18
+[19:03:37] [Server thread/INFO]: [skRayFall] Yay! You are running skRayFall 1.9.18!
+[19:03:37] [Server thread/INFO]: [skRayFall] Nathan and Lewis <3 you.
+[19:03:37] [Server thread/INFO]: [skRayFall] Cooking Bacon...
+[19:03:37] [Server thread/WARN]: [skRayFall] EffectLib 6.0 for 1.13 is not supported as of right now since it has backwards breaking changes for users below 1.10
+[19:03:37] [Server thread/INFO]: [skRayFall] Citizens not found! Sorry you cant make friends, but don't worry we will still be your friend <3
+[19:03:37] [Server thread/WARN]: [skRayFall] EffectLib 6.0 for 1.13 is not supported as of right now since it has backwards breaking changes for users below 1.10
+[19:03:37] [Server thread/INFO]: [skRayFall] No Votifier Found! *Checks oven for finished bacon*
+[19:03:37] [Server thread/INFO]: [skRayFall] Bacon holograms found
+[19:03:37] [Server thread/INFO]: [skRayFall] Enabling general 1.8+ bacon!
+[19:03:37] [Server thread/INFO]: [skRayFall] Getting the general 1.9+ bacon!
+[19:03:37] [Server thread/INFO]: [[0;36;22mskRayFall[m] [0;31;1mAn update for skRayFall is available![m
+[19:03:37] [Server thread/INFO]: [skRayFall] Bacon is ready!
+[19:03:37] [Server thread/INFO]: [SkQuery] Enabling SkQuery v4.1.1
+[19:03:37] [Server thread/INFO]: [skQuery] Locating classes from SkQuery...
+[19:03:38] [Server thread/INFO]: [skQuery] Beginning to process a total of 139 from SkQuery
+[19:03:38] [Server thread/INFO]: [skQuery] Out of 139 classes, 137 classes were loaded from SkQuery
+[19:03:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:03:38] [Server thread/INFO]: Done (13.224s)! For help, type "help"
+[19:03:38] [Server thread/INFO]: [Skript] Loading variables...
+[19:03:38] [Server thread/INFO]: [Skript] Loaded 10 variables in 0.0 seconds
+[19:03:38] [Server thread/WARN]: [Skript] Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section. (admin.sk, line 54: if player doesn't have the permission "skript.manage.stop":#if player dpesn't have "skript.manage.stop" permission passed')
+[19:03:38] [Server thread/ERROR]: [Skript] indentation error: indent must only consist of either spaces or tabs, but not mixed (found '->_' [-> = tab, _ = space, ? = other whitespace]) (help.sk, line 14: trigger:')
+[19:03:38] [Server thread/WARN]: [Skript] Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section. (on tnt set.sk, line 20: if {explode} is on:')
+[19:03:38] [Server thread/WARN]: [Skript] Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section. (on tnt set.sk, line 25: if {tnt.clear} is on:')
+[19:03:38] [Server thread/ERROR]: [Skript] can't understand this condition: 'icname contains "%player%ÀÇ Ã¢°í"' (chest.sk, line 13: if icname contains "%player%ÀÇ Ã¢°í":')
+[19:03:38] [Server thread/ERROR]: [Skript] Can't understand this condition/effect: format slot 12 of player with wood named "&f½£" with lore "&f½£ ´øÀüÀÔ´Ï´Ù." and "¾ÆÁÖ &eÆòÈ­·Î¿î(?)&f ½£ÀÌÁÒ." to close then run [execute op command "/½£"] (dungeon list.sk, line 6: format slot 12 of player with wood named "&f½£" with lore "&f½£ ´øÀüÀÔ´Ï´Ù." and "¾ÆÁÖ &eÆòÈ­·Î¿î(?)&f ½£ÀÌÁÒ." to close then run [execute op command "/½£"]')
+[19:03:38] [Server thread/ERROR]: [Skript] 'send "[ µµ¿ò¸» &e2/2&f]"' is not an entry (like 'name : value') (help.sk, line 15: send "[ µµ¿ò¸» &e2/2&f]"')
+[19:03:38] [Server thread/ERROR]: [Skript] 'send ""' is not an entry (like 'name : value') (help.sk, line 16: send ""')
+[19:03:38] [Server thread/ERROR]: [Skript] 'send "/¿ëµ·¹Þ±â <&e¿ëµ·À» ¹ÞÀ»¼ö ÀÖ½À´Ï´Ù.&f>"' is not an entry (like 'name : value') (help.sk, line 17: send "/¿ëµ·¹Þ±â <&e¿ëµ·À» ¹ÞÀ»¼ö ÀÖ½À´Ï´Ù.&f>"')
+[19:03:38] [Server thread/ERROR]: [Skript] 'send "/¾²·¹±âÅë <&eÇÊ¿ä¾ø´Â ¹°°ÇÀ» ¹ö¸±¼ö ÀÖ½À´Ï´Ù.&f>"' is not an entry (like 'name : value') (help.sk, line 18: send "/¾²·¹±âÅë <&eÇÊ¿ä¾ø´Â ¹°°ÇÀ» ¹ö¸±¼ö ÀÖ½À´Ï´Ù.&f>"')
+[19:03:38] [Server thread/ERROR]: [Skript] 'send "/¿ëµ·»°±â <&e¿ëµ·À» ¹ö¸±¼ö ÀÖ½À´Ï´Ù. (ÇÑ¹ø¿¡ 1000¿ø¾¿)&f>"' is not an entry (like 'name : value') (help.sk, line 19: send "/¿ëµ·»°±â <&e¿ëµ·À» ¹ö¸±¼ö ÀÖ½À´Ï´Ù. (ÇÑ¹ø¿¡ 1000¿ø¾¿)&f>"')
+[19:03:38] [Server thread/ERROR]: [Skript] 'send "/Áö°© <&eÇöÀç °¡Áö°í ÀÖ´Â µ·À» È®ÀÎÇÒ¼ö ÀÖ½À´Ï´Ù.&f>"' is not an entry (like 'name : value') (help.sk, line 20: send "/Áö°© <&eÇöÀç °¡Áö°í ÀÖ´Â µ·À» È®ÀÎÇÒ¼ö ÀÖ½À´Ï´Ù.&f>"')
+[19:03:38] [Server thread/ERROR]: [Skript] 'send "/¸Þ´º <&eºü¸¥ ¸Þ´º¸¦ º¼¼ö ÀÖ½À´Ï´Ù.&f>"' is not an entry (like 'name : value') (help.sk, line 21: send "/¸Þ´º <&eºü¸¥ ¸Þ´º¸¦ º¼¼ö ÀÖ½À´Ï´Ù.&f>"')
+[19:03:38] [Server thread/ERROR]: [Skript] 'send ""' is not an entry (like 'name : value') (help.sk, line 22: send ""')
+[19:03:38] [Server thread/ERROR]: [Skript] Required entry 'trigger' is missing in 'command /µµ¿ò¸» 2' (help.sk, starting at line 13) (help.sk, line 13: command /µµ¿ò¸» 2:')
+[19:03:39] [Server thread/ERROR]: [Skript] Can't understand this condition/effect: play sound "ENTITY_BAT_DEATH" specifically to player with pitch 2.0 and volume 1.0 (playsound.sk, line 3: play sound "ENTITY_BAT_DEATH" specifically to player with pitch 2.0 and volume 1.0#Easier syntax for faster usage')
+[19:03:40] [Server thread/ERROR]: [Skript] Can't understand this condition/effect: play sound "ENTITY_BAT_DEATH" at location of player with pitch 2.0 and volume 1.0 for player (playsound.sk, line 4: play sound "ENTITY_BAT_DEATH" at location of player with pitch 2.0 and volume 1.0 for player#You can define from where sound will be played')
+[19:03:40] [Server thread/ERROR]: [Skript] '1 iron' can't be added to a player because the former is neither an item type, an inventory nor an experience point (randombox.sk, line 15: give 1 iron to player')
+[19:03:40] [Server thread/ERROR]: [Skript] Can't understand this condition/effect: [execute run op command "mv tp @s spawn"] (spawn.sk, line 4: [execute run op command "mv tp @s spawn"]')
+[19:03:40] [Server thread/ERROR]: [Skript] There's no loop that matches 'loop-value to "text 1"' (timer.sk, line 5: set action bar of loop-value to "text 1"')
+[19:03:40] [Server thread/ERROR]: [Skript] There's no loop that matches 'loop-value to "text 2"' (timer.sk, line 7: set action bar of loop-value to "text 2"')
+[19:03:40] [Server thread/INFO]: [Skript] 18°³ÀÇ ½ºÅ©¸³Æ®Áß 18°³ÀÇ Æ®¸®°Å, 21°³ÀÇ ¸í·É¾î¸¦ 2.68 seconds¸¸¿¡ ·ÎµåÇß½À´Ï´Ù.
+[19:03:40] [Server thread/INFO]: [Skript] ·ÎµùÀÌ ¿Ï·áµÇ¾ú½À´Ï´Ù.
+[19:03:40] [Server thread/INFO]: [HolographicDisplays] Found a new version available: v3.0.0
+[19:03:40] [Server thread/INFO]: [HolographicDisplays] Download it on Bukkit Dev:
+[19:03:40] [Server thread/INFO]: [HolographicDisplays] dev.bukkit.org/projects/holographic-displays
